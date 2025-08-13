@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv
+
+# Dataset
+datasets/
+
+# VS Code settings
+.vscode/
+
+# GCP Credentials (IMPORTANT!)
+*.json
+.env
+
+# Additional files to exclude
+clean_notebook.py

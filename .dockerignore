@@ -1,0 +1,39 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.python-version
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE/Editor
+.vscode
+
+# Environment
+.env
+
+# Credentials (IMPORTANT!)
+*.json
+
+# Docker
+Dockerfile
+Dockerfile.pytorch
+Dockerfile.tf
+Makefile
+
+# Virtual environment (rebuilt in container)
+.venv
+
+# Dataset (if large)
+datasets
+
+# Additional files to exclude:
+README.md
+*.ipynb
+.dockerignore
+clean_notebook.py

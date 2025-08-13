@@ -1,0 +1,21 @@
+[project]
+name = "pixdl"
+version = "0.1.0"
+description = "Deep learning toolkit for image classification and recognition with PyTorch"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchvision",
+    "pillow",
+    "numpy",
+    "jupyterlab",
+    "ipywidgets",
+    "matplotlib",
+    "opencv-python",
+    "tqdm",
+    "mlflow",
+    "google-cloud-storage",
+    "scikit-learn",
+    "seaborn",
+]
