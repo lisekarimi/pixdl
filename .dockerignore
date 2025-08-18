@@ -37,3 +37,8 @@ README.md
 *.ipynb
 .dockerignore
 clean_notebook.py
+
+# MLflow
+mlruns
+mlartifacts
+models

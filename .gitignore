@@ -24,3 +24,8 @@ datasets/
 
 # Additional files to exclude
 clean_notebook.py
+
+# MLflow
+mlruns
+mlartifacts
+models

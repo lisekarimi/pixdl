@@ -27,7 +27,7 @@ build-tf: ## Build TensorFlow Docker image
 	docker build -f Dockerfile.tf -t $(DOCKER_USERNAME)/$(PROJECT_NAME)-tf:$(TAG) .
 
 run: ## Run PyTorch container
-	docker run --name $(CONTAINER_NAME) -p 8888:8888 --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -v $(PWD):/workspace $(DOCKER_USERNAME)/$(PROJECT_NAME)-pytorch:$(TAG)
+	docker run --name $(CONTAINER_NAME) -p 8888:8888 -p 5000:5000 --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -v $(PWD):/workspace $(DOCKER_USERNAME)/$(PROJECT_NAME)-pytorch:$(TAG)
 
 run-tf: ## Run TensorFlow container
 	docker run --name $(PROJECT_NAME)-tf-container -p 8888:8888 --gpus all --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 -v $(PWD):/workspace $(DOCKER_USERNAME)/$(PROJECT_NAME)-tf:$(TAG)
