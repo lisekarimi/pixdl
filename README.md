@@ -26,8 +26,9 @@ Each notebook is self-contained and guides you through:
 
 ## 📂 Projects
 
-| Project | Framework | Notes |
-|---------|-----------|-------|
-| **Cat vs Dog Classification (PyTorch)** | PyTorch + MLflow | Runs on GCP with MLflow tracking |
-| **Cat vs Dog Classification (TensorFlow)** | TensorFlow | Local GPU training |
-| **Handwritten Digit Recognition** | TensorFlow | Classic MNIST classification |
+| Project | Framework | Model | Accuracy | Notes |
+|---------|-----------|--------------------------|----------|-----------------------------------------------|
+| **Cat vs Dog Classification (PyTorch)** | PyTorch + MLflow | MobileNetV2 (transfer learning) | 97% | Runs on GCP with MLflow tracking |
+| **Cat vs Dog Classification (TensorFlow)** | TensorFlow | MobileNetV2 (transfer learning) | 98% | Local GPU training |
+| **Handwritten Digit Recognition** | TensorFlow | Custom CNN model | 98% | Classic MNIST classification |
+| **Skin Lesion Classifier** | PyTorch + MLflow | ResNet-50 (transfer learning) | 98% | Class imbalance handling + data augmentation |
