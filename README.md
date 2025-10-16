@@ -12,7 +12,9 @@ Each notebook is self-contained and guides you through:
 - 🏆 Best model selection
 - 🔍 Predictions & inference
 
----
+## 🌐 Visit Our Website
+
+Check out our interactive demos and detailed documentation at: **[pixdl.lisekarimi.com](https://pixdl.lisekarimi.com)**
 
 ## 🚀 Requirements
 - GPU-enabled machine
@@ -22,7 +24,6 @@ Each notebook is self-contained and guides you through:
 
 > 💡 This toolkit is designed for **advanced data scientists** with local GPU access.
 
----
 
 ## 📂 Projects
 
